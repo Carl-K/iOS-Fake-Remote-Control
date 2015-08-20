@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43746E441AF68CAD0030B17D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43746E431AF68CAD0030B17D /* AppDelegate.swift */; };
+		43746E461AF68CAD0030B17D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43746E451AF68CAD0030B17D /* ViewController.swift */; };
+		43746E491AF68CAD0030B17D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43746E471AF68CAD0030B17D /* Main.storyboard */; };
+		43746E4B1AF68CAD0030B17D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43746E4A1AF68CAD0030B17D /* Images.xcassets */; };
+		43746E4E1AF68CAD0030B17D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43746E4C1AF68CAD0030B17D /* LaunchScreen.xib */; };
+		43746E5A1AF68CAD0030B17D /* KrukC_Homework4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43746E591AF68CAD0030B17D /* KrukC_Homework4Tests.swift */; };
+		43A6A5BD1AFEC34B003BEE4C /* DVRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A6A5BC1AFEC34B003BEE4C /* DVRViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		43746E541AF68CAD0030B17D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43746E361AF68CAD0030B17D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43746E3D1AF68CAD0030B17D;
+			remoteInfo = "KrukC-Homework4";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		43746E3E1AF68CAD0030B17D /* KrukC-Homework4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KrukC-Homework4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		43746E421AF68CAD0030B17D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43746E431AF68CAD0030B17D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		43746E451AF68CAD0030B17D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		43746E481AF68CAD0030B17D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		43746E4A1AF68CAD0030B17D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		43746E4D1AF68CAD0030B17D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		43746E531AF68CAD0030B17D /* KrukC-Homework4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KrukC-Homework4Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		43746E581AF68CAD0030B17D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43746E591AF68CAD0030B17D /* KrukC_Homework4Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KrukC_Homework4Tests.swift; sourceTree = "<group>"; };
+		43A6A5BC1AFEC34B003BEE4C /* DVRViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DVRViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43746E3B1AF68CAD0030B17D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43746E501AF68CAD0030B17D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43746E351AF68CAD0030B17D = {
+			isa = PBXGroup;
+			children = (
+				43746E401AF68CAD0030B17D /* KrukC-Homework4 */,
+				43746E561AF68CAD0030B17D /* KrukC-Homework4Tests */,
+				43746E3F1AF68CAD0030B17D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43746E3F1AF68CAD0030B17D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43746E3E1AF68CAD0030B17D /* KrukC-Homework4.app */,
+				43746E531AF68CAD0030B17D /* KrukC-Homework4Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43746E401AF68CAD0030B17D /* KrukC-Homework4 */ = {
+			isa = PBXGroup;
+			children = (
+				43746E431AF68CAD0030B17D /* AppDelegate.swift */,
+				43746E451AF68CAD0030B17D /* ViewController.swift */,
+				43746E471AF68CAD0030B17D /* Main.storyboard */,
+				43A6A5BC1AFEC34B003BEE4C /* DVRViewController.swift */,
+				43746E4A1AF68CAD0030B17D /* Images.xcassets */,
+				43746E4C1AF68CAD0030B17D /* LaunchScreen.xib */,
+				43746E411AF68CAD0030B17D /* Supporting Files */,
+			);
+			path = "KrukC-Homework4";
+			sourceTree = "<group>";
+		};
+		43746E411AF68CAD0030B17D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				43746E421AF68CAD0030B17D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		43746E561AF68CAD0030B17D /* KrukC-Homework4Tests */ = {
+			isa = PBXGroup;
+			children = (
+				43746E591AF68CAD0030B17D /* KrukC_Homework4Tests.swift */,
+				43746E571AF68CAD0030B17D /* Supporting Files */,
+			);
+			path = "KrukC-Homework4Tests";
+			sourceTree = "<group>";
+		};
+		43746E571AF68CAD0030B17D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				43746E581AF68CAD0030B17D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43746E3D1AF68CAD0030B17D /* KrukC-Homework4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43746E5D1AF68CAD0030B17D /* Build configuration list for PBXNativeTarget "KrukC-Homework4" */;
+			buildPhases = (
+				43746E3A1AF68CAD0030B17D /* Sources */,
+				43746E3B1AF68CAD0030B17D /* Frameworks */,
+				43746E3C1AF68CAD0030B17D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KrukC-Homework4";
+			productName = "KrukC-Homework4";
+			productReference = 43746E3E1AF68CAD0030B17D /* KrukC-Homework4.app */;
+			productType = "com.apple.product-type.application";
+		};
+		43746E521AF68CAD0030B17D /* KrukC-Homework4Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43746E601AF68CAD0030B17D /* Build configuration list for PBXNativeTarget "KrukC-Homework4Tests" */;
+			buildPhases = (
+				43746E4F1AF68CAD0030B17D /* Sources */,
+				43746E501AF68CAD0030B17D /* Frameworks */,
+				43746E511AF68CAD0030B17D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43746E551AF68CAD0030B17D /* PBXTargetDependency */,
+			);
+			name = "KrukC-Homework4Tests";
+			productName = "KrukC-Homework4Tests";
+			productReference = 43746E531AF68CAD0030B17D /* KrukC-Homework4Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43746E361AF68CAD0030B17D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "DePaul University";
+				TargetAttributes = {
+					43746E3D1AF68CAD0030B17D = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					43746E521AF68CAD0030B17D = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 43746E3D1AF68CAD0030B17D;
+					};
+				};
+			};
+			buildConfigurationList = 43746E391AF68CAD0030B17D /* Build configuration list for PBXProject "KrukC-Homework4" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 43746E351AF68CAD0030B17D;
+			productRefGroup = 43746E3F1AF68CAD0030B17D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43746E3D1AF68CAD0030B17D /* KrukC-Homework4 */,
+				43746E521AF68CAD0030B17D /* KrukC-Homework4Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43746E3C1AF68CAD0030B17D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43746E491AF68CAD0030B17D /* Main.storyboard in Resources */,
+				43746E4E1AF68CAD0030B17D /* LaunchScreen.xib in Resources */,
+				43746E4B1AF68CAD0030B17D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43746E511AF68CAD0030B17D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43746E3A1AF68CAD0030B17D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43746E461AF68CAD0030B17D /* ViewController.swift in Sources */,
+				43A6A5BD1AFEC34B003BEE4C /* DVRViewController.swift in Sources */,
+				43746E441AF68CAD0030B17D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43746E4F1AF68CAD0030B17D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43746E5A1AF68CAD0030B17D /* KrukC_Homework4Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		43746E551AF68CAD0030B17D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43746E3D1AF68CAD0030B17D /* KrukC-Homework4 */;
+			targetProxy = 43746E541AF68CAD0030B17D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		43746E471AF68CAD0030B17D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43746E481AF68CAD0030B17D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		43746E4C1AF68CAD0030B17D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43746E4D1AF68CAD0030B17D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		43746E5B1AF68CAD0030B17D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		43746E5C1AF68CAD0030B17D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43746E5E1AF68CAD0030B17D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "KrukC-Homework4/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		43746E5F1AF68CAD0030B17D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "KrukC-Homework4/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		43746E611AF68CAD0030B17D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "KrukC-Homework4Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KrukC-Homework4.app/KrukC-Homework4";
+			};
+			name = Debug;
+		};
+		43746E621AF68CAD0030B17D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "KrukC-Homework4Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KrukC-Homework4.app/KrukC-Homework4";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43746E391AF68CAD0030B17D /* Build configuration list for PBXProject "KrukC-Homework4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43746E5B1AF68CAD0030B17D /* Debug */,
+				43746E5C1AF68CAD0030B17D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43746E5D1AF68CAD0030B17D /* Build configuration list for PBXNativeTarget "KrukC-Homework4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43746E5E1AF68CAD0030B17D /* Debug */,
+				43746E5F1AF68CAD0030B17D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43746E601AF68CAD0030B17D /* Build configuration list for PBXNativeTarget "KrukC-Homework4Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43746E611AF68CAD0030B17D /* Debug */,
+				43746E621AF68CAD0030B17D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43746E361AF68CAD0030B17D /* Project object */;
+}
